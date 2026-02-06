@@ -30,8 +30,8 @@ public:
 };
 
 // Map to store original node -> cloned node
-unordered_map<Node *, Node *> mp;
 
+unordered_map<Node *, Node *> mp;
 // DFS function to clone the graph (deep copy)
 Node *cloneGraph(Node *node)
 {
