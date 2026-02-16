@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    vector<vector<int>> grid = {
+        {1,0,0,0,0,0,1},
+        {2,0,0,0,0,3,0},
+        {2,0,9,0,0,0,0},
+        {0,3,0,5,4,0,0},
+        {1,0,2,3,0,0,6}
+    };
+
+    Solution obj;
+    cout << obj.cherryPickup(grid) << endl;
+
+    return 0;
+}
